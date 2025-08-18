@@ -1,4 +1,4 @@
-# Sistema distribuido de simulación biométrica
+# Sistema Concurrente de Análisis Biométrico con Cadena de Bloques Local
 
 ## Requisitos
 
