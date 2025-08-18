@@ -37,11 +37,3 @@ pip install -r requirements.txt
 
 - `blockchain.json`: Contiene la cadena de bloques de todas las muestras
 - `reporte.txt`: Resumen con cantidad de bloques, bloques corruptos, alertas y promedios
-
-## Notas
-
-- El sistema simula 60 muestras biométricas en tiempo real (una por segundo)
-- Alerta y excepciones son gestionadas según los criterios de la consigna
-- Código cumple PEP 8, incluye manejo de recursos y cierre limpio de procesos
-
----
