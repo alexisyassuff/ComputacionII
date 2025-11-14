@@ -188,16 +188,6 @@ pkill -f server_scraping.py
 pkill -f server_processing.py
 ```
 
-### Fallos de screenshot
-
-```bash
-# Verificar instalación de Chrome
-which google-chrome
-
-# Instalar dependencias de sistema
-sudo apt-get install -y chromium-browser
-```
-
 ### Errores de conexión
 
 ```bash
