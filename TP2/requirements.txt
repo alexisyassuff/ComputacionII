@@ -1,0 +1,9 @@
+# Dependencias principales para TP2
+aiohttp
+beautifulsoup4
+lxml
+Pillow
+selenium
+aiofiles
+requests
+webdriver-manager

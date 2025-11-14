@@ -1,0 +1,10 @@
+env
+/env
+/pycache
+pycache
+__pycache__
+/__pycache__
+TP_1/__pycache__/
+**/__pycache__/
+.pytest_cache
+/.pytest_cache/
