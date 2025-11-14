@@ -1,7 +1,5 @@
 # TP2 - Sistema de Scraping y Análisis Web Distribuido
 
-## Dessource venv_tp2/bin/activate && python server_processing.py -i 127.0.0.1 -p 9001 -w 1ource venv_tp2/bin/activate && python server_processing.py -i 127.0.0.1 -p 9001 -w 1ripción General
-
 Sistema distribuido de dos servidores que procesa páginas web de forma asíncrona y paralela. El Servidor A maneja las peticiones HTTP y scraping, mientras que el Servidor B se encarga del procesamiento computacional intensivo.
 
 ## Arquitectura del Sistema
@@ -45,15 +43,6 @@ source venv_tp2/bin/activate  # Linux/Mac
 # Instalar dependencias
 pip install -r requirements.txt
 ````
-
-### Configuración de Selenium (Opcional)
-
-Para capturas de pantalla, instalar ChromeDriver:
-
-```bash
-# Se maneja automáticamente con webdriver-manager
-# No requiere configuración manual
-```
 
 ## Ejecución del Sistema
 
@@ -172,26 +161,6 @@ El sistema devuelve un JSON estructurado:
 - **TCP Sockets**: Comunicación confiable entre procesos
 - **Protocol Buffers**: Intercambio binario eficiente
 
-## Manejo de Errores
-
-### Errores de Red
-
-- URLs inaccesibles o no válidas
-- Timeouts de conexión (máximo 30 segundos)
-- Fallos de DNS y problemas de conectividad
-
-### Errores de Procesamiento
-
-- Páginas demasiado grandes (límite de memoria)
-- Fallos en la captura de screenshots
-- Problemas de parsing HTML malformado
-
-### Errores de Sistema
-
-- Fallos de comunicación entre servidores
-- Procesos que no responden
-- Recursos del sistema agotados
-
 ## Características Técnicas
 
 ### Concurrencia
@@ -205,12 +174,6 @@ El sistema devuelve un JSON estructurado:
 - **Scraping asíncrono**: No bloquea el event loop principal
 - **Cache de conexiones**: Reutilización de conexiones HTTP
 - **Procesamiento en background**: Tareas CPU-intensivas no afectan la responsividad
-
-### Escalabilidad
-
-- **IPv4/IPv6**: Soporte completo para ambos protocolos
-- **Configuración flexible**: Parámetros ajustables via CLI
-- **Monitoreo**: Logs detallados para debugging y optimización
 
 ## Solución de Problemas
 
